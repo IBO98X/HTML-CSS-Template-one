@@ -24,6 +24,7 @@ body {
 }
 /* For make the scroll as transition */
 html {
+  /* عندما نتنقل يجعل الانتقال من مكان لمكان سلس ويأخذ وقت */
   scroll-behavior: smooth;
 }
 .container {
@@ -66,12 +67,12 @@ html {
   font-size: 20px;
   color: #5c5c5c;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .special-heading {
     font-size: 60px;
   }
   .special-heading + p {
-    margin: -20px;
+    margin: -20px 0px 0px;
   }
 }
 /* End Components */
@@ -420,7 +421,6 @@ html {
 /* Start Footer */
 .footer {
   background-color: var(--secondary-color);
-  height: 70px;
   padding: 30px 10px;
   text-align: center;
   color: white;
